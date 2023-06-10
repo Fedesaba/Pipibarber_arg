@@ -1,0 +1,891 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+html{
+	scroll-behavior: smooth;
+	transition: 1s;
+}
+
+                 /*BARRA DE NAVEGACION*/
+.green{
+	color: green;
+		}
+.red{
+			color: red;
+}
+.resultado{
+	color:#fff;
+	text-align: center;
+	font-size: 25px;
+}
+.estaes{
+   height: 100vh;
+   background-image: url(img/fondo.jpg.jpg);
+   background-size: cover;
+   background-position: center;
+		
+}
+.nav__responsive-ul{
+	display: none;
+}
+.nav{
+	background-color: transparent;
+}
+
+.centrar-nav{
+	text-align: center;
+}
+.nav__ul{
+  padding: 0px;
+  margin: 0px;
+}
+.nav__li{
+	display: inline-block;
+	padding: 12px;
+	color: #fff;
+    padding: 5px;
+     margin: 5px;
+  
+}
+.nav__li a{
+	color: #fff;
+	text-decoration: none;
+    font-size: 15px;
+}
+.nav__li:hover > a{
+	color: #CCC;
+	transition: 1s;
+}
+.nav__li:hover {
+	color: #CCC;
+	transition: 1s;
+}
+.nav__li i {
+	box-sizing: border-box;
+	text-align: right;
+	margin-right: 5px;
+    font-size: 15px;
+}
+.nav__responsive-button-container{
+  position: absolute;
+  width: 100%;
+  font-size: 25px;
+  background-color: transparent;
+  margin-top: -64px;
+  z-index: 100;
+}
+.nav__responsive-button{
+  font-size: 25px;
+  float: left;
+  padding: 6px 20px;
+  color: #fff;
+}
+
+                    /*FIN DE LA BARRA*/
+
+					/*COMIENZO DEL INICIO*/
+			
+
+.acomodar-r{
+    display: none;  
+}
+.letras{
+	text-align: center;
+	flex-wrap: wrap;
+}
+.contenedor-l{
+    margin: auto;
+    display: grid;
+}
+.contenedor-aco {
+	padding: 30px;
+	margin: 30px;
+    display: inline-block;
+    text-align: center;
+	color: #fff;
+}
+
+.bs{
+	font-size: 65px;
+}
+.barber{
+	font-size: 40px; 
+}
+.barberia{
+	font-size: 40px; 
+}
+
+
+
+                        /*FIN DEL INICIO*/
+
+						/*COMIENZO DE REDES SOCIALES*/
+			
+
+.reservar{
+	background: #000 ;
+	width: 100%;
+}
+.reservar-titulo{
+	margin: 0px;
+	padding-top: 70px;
+	text-align: center;
+	color: #333;  
+	
+}
+
+.maq{
+	display: flex;
+}
+.caja-f{
+	margin: auto;	
+}
+  /* Estilo para los iconos de las redes sociales */
+.caja-f li {
+	display: inline-block;
+	margin: 40px;
+}  
+.caja-f a {
+	color: #fff;
+	text-align: center;
+	font-size: 25px;
+  }
+  .caja-f a:hover.instagram {
+	color: #e4405f;
+	transition: 1s;
+  }
+  .caja-f a:hover.facebook {
+	color: #3b5999;
+	transition: 1s;
+  }
+  .caja-f a:hover.whatsapp {
+	color: #00bb2d;
+	transition: 1s;
+  }
+ 
+
+                /*FIN DE REDES SOCIALES*/
+
+				/*COMIENZO DE PRESENTACION*/
+
+.nosotros{
+	width: 100%;
+	height: 600px;
+	
+}
+.contenedor-nosotros {
+    display: flex;	
+	background: #000;
+}
+.contenedor-nosotros img{
+   margin: auto;
+   margin-left: 150px ;
+   width: 400px;	
+   height: 400px;
+}
+.text{
+	padding: 20px;
+	margin-top: 70px;
+	font-family: sans-serif;
+}
+.text h1{
+	font-family: serif;
+	text-decoration: underline #444341 ;
+	color: #fff;
+} 
+.dale{
+	width: 480px;	
+	height: 400px;
+	margin-top: 60px;
+}
+.text, .ra{
+	font-family: serif;
+	font-size: 16px;
+	color: #fff;
+}
+
+
+                     /*FIN DE PRESENTACION*/
+
+					 /*COMIENZO DE LOS CORTES*/
+					 
+  
+.nuestros-trabajos{
+	width: 100%;
+	background-color: #fff;
+  }
+  
+.colecciones{
+	margin-top: 90px;
+	text-decoration: underline;
+	text-align: center;
+	font-family: serif;
+	font-size: 30px;
+	color: #000;
+}
+.ultimostp{
+	text-align: center;
+	font-family: serif;
+	color: #333;
+}
+.img-centrar{
+	padding-top: 30px;
+	flex: 1;
+	display: flex;
+	
+}
+.centrar{
+	margin: auto;
+	object-fit: cover;
+}
+
+img{
+	height: 450px;
+	width: 300px;
+}
+.img-1 ,.img-2 ,.img-3{
+	display: inline-block;
+}
+
+                      /*FIN DE LOS CORTES*/
+
+					  /*LOS TRABAJOS QUE HACEMOS*/
+
+.servi-adentro{
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	display: inline-block;
+}
+.servicios-izq{
+	background: #FFF;
+	height: 380px;
+	width: 100%;
+	font-family: serif;	
+}
+.hacemos,.servicios-d{
+  text-align: center;
+  font-size: 25px;
+  background: #000;
+  color: #fff;
+  width: 150px;
+  height: 30px;
+  margin: auto;
+  padding: 10px;
+}
+.hacemos{
+   width: 350px;
+   margin-top: 60px;
+}
+.parrafo{
+  height: 300px;
+  width: 700px;
+  margin: auto;
+}
+.desde{
+   	display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+    margin-top: 60px;
+    font-size: 20px;
+}
+.servicios-der{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	font-family: serif;
+	justify-content: space-around; /* CENTRAMOS LAS CAJAS*/
+	
+}
+.esto1,.esto2,.esto3,.esto4{
+	width: 300px;
+	height: 100%;
+	display: block;
+	padding: 30px; 
+	margin: 30px;
+}
+.subtitulos{
+	text-align: center;
+	font-family: serif;
+}
+.parra{
+	text-align: center;
+	font-family: fantasy ;
+	font: 400 19px / 1.42857143 "Merriweather", serif;
+	box-sizing: border-box;
+	margin-top: -10px;
+}
+
+                  /*FIN DE LOS TRABAJOS QUE HACEMOS*/
+
+				  /*HORARIOS Y FORMULARIO*/
+
+.final{
+	width: 100%;
+}
+.final-de-pag{
+	width: 100%;
+	height: 100%;
+	background:#dfdcdc ;
+	display: inline-flex;
+}
+
+/* Estilos para el contenedor */
+.contacto {
+	background-color: #f5f5f5;
+	padding: 50px 0;
+	padding-top: 100px;
+	text-align: center;
+	width: 400px;
+    height: 350px;
+  }
+  
+  /* Estilos para el título */
+  h2 {
+	font-size: 36px;
+	font-weight: bold;
+	color: #333;
+	margin-bottom: 30px;
+  }
+  
+  /* Estilos para la información de contacto */
+  .contacto-info {
+	font-size: 18px;
+	color: #777;
+	margin-bottom: 20px;
+	text-align: center;
+  }
+  
+  /* Estilos para los íconos de contacto */
+  .icono {
+	margin-right: 10px;
+	vertical-align: middle;
+  }
+  
+  /* Estilos para el enlace de correo electrónico */
+  .email {
+	color: #777;
+	text-decoration: none;
+  }
+  
+  .email:hover {
+	text-decoration: underline;
+  }
+
+	.formulario{
+	width: 400px;
+	height: 500px;
+	background: #000;
+	display: inline-block;
+	}
+input{
+	padding: 10px;
+	margin: 20px;
+	width: 300px;
+	color: #fff;
+	background: transparent;
+	border: 2px solid #fff;
+	border-radius: 6px;
+}
+.msj{
+   margin-top: -10px;
+   height: 125px;
+}
+.mover_boton{
+	padding-left: 125px;
+}
+.boton{
+	padding: 10px;
+	margin: 5px ;
+	width: 90px ;
+	border-radius: 30px;
+	color: #FFF;
+	background: transparent;
+	border: 2px solid #FFF;
+	border-radius: 6px;
+}
+.boton:hover{
+	background-color: #FFF;
+    color: #000;
+    transition: 1s;
+}
+
+                /*FINAL DE HORARIOS Y FORMULARIO*/
+
+				/*MAPA*/
+
+#map {
+	height: 500px;
+	width: 100%;
+}
+                /*FINAL DEL MAPA*/
+
+                /* MI PRESENTACION*/
+
+.footer {
+    margin: 0px;
+	background-color: #000;
+	color: #fff;
+	padding: 20px;
+}
+.footer-container {
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.contacto-3 h3 {
+	margin-left: 90px;
+	color:#fff;
+	font-size: 1.2rem;
+	font-family: CentraNube,-apple-system,BlinkMacSystemFont,"Helvetica Neue",arial,sans-serif;
+}
+.contacto-3 h3:hover {
+	color: #3b5999;
+	transition: .5s;
+}
+.contacto-3 ul {
+	margin-left: 90px;
+	list-style: none;
+	padding: 0;
+}
+.contacto-3 li {
+	align-items: center;
+	margin-bottom: 10px;
+	display: inline-flex;
+}
+.contacto-3 i {
+	margin-right: 20px;
+	color: #fff;
+	text-align: center;
+	font-size: 20px;
+}
+.contacto-3 i:hover {
+	color: #3b5999;
+	transition: .5s;
+}
+.derechos p {
+	font-size: 0.8rem;
+	text-align: right;
+}
+
+                       /* MI PRESENTACION*/
+
+@media screen and (max-width: 500px) {
+	
+	/*BARRA DE NAVEGACION*/
+	  .nav__ul{
+		display: none;
+	  }
+	  .nav{
+		height: 37px;
+		width: 100%;
+		background-color: transparent;
+	  }
+	  .nav__responsive-ul{
+		display: block;
+		position: absolute;
+		width: 100%;
+		margin-top: 37px;
+		padding-top: 27px;
+		height: 37%;
+		padding-left:0px;
+	  }
+	  .nav_li_container{
+		position: relative;
+		top: -1000px;
+		transition: all 1s;
+		background: transparent;
+		z-index: 1;
+		width: 30%;
+		height: 200px;
+	  }
+	  .nav__responsive-li{
+		width: 100%;
+		padding: 9px 20px;
+		display: inline-block;
+		padding: 0px;
+		margin-top: 10px;
+	  }
+	  .nav__responsive-li i{
+		box-sizing: border-box;
+		text-align: center;
+		margin-right: 5px;
+		width: 30px;
+		color: #fff;
+		font-size: 15px;
+	  }
+	  .nav__responsive-li a{
+		color: #fff;
+		text-decoration: none;
+		font-size: 15px;
+	  }
+	  .nav__responsive-ul:hover > .nav_li_container{
+		top: -27px
+	  }
+	 
+	   
+	/* FIN DE BARRA DE NAVEGACION*/
+
+    /* PRESENTACION*/
+	
+    .acomodar {
+        flex-wrap: wrap;
+        justify-content: center;
+		height: 100%;
+		width: 100%;
+    }
+	.contenedor{
+		height: 100%;
+	}
+    
+    .contenedor-aco{
+        margin-right: 0;
+        margin-bottom: 10px;
+		display: inline-block;
+    }
+    
+    .bs, .barber, .barberia{
+        font-size: 30px;
+		color: #fff;	
+    }
+	
+	
+   
+     /* FIN PRESENTACION*/
+
+	 /* RESERVAR TURNOS*/
+	.reservar{
+		background: #000 ;
+		color: #fff;
+		font-family: serif; 
+		width: 100%;
+	}
+	.reservar-titulo{
+		font-family: serif;
+		text-align: center;
+		font-size: 20px;
+	}
+	.reservar-titulod{
+		font-family: serif;
+		font-size: 16px;
+		text-align: center;
+	}
+	.caja-f{
+		padding: auto;
+		margin: auto;
+		text-align: center;
+	}
+
+     /*FIN DE RESERVAS TURNOS*/
+
+     /*NOSOTROS*/
+    
+    .nosotros{
+	 width: 100%;
+	 height: 100%;
+    }
+    .contenedor-nosotros {
+	 display: flex;
+	 flex-direction: column;
+	 align-items: center;
+	 justify-content: center;
+	 background: #000;
+	 height: 100%;
+     }
+  
+    .contenedor-nosotros img{
+	 width: 300px;
+	 height: 300px;
+	 margin: 0;
+     }
+  
+    .text{
+	 padding: 20px;
+	 margin-top: 50px;
+	 text-align: center;
+     }
+  
+    .text h1{
+	 font-size: 24px;
+	 color: #fff;
+     }
+  
+    .dale{
+	 width: 300px;
+	 height: 250px;
+	 margin-top: 60px;
+     }
+  
+     .text, .ra{
+	 font-size: 14px;
+	 color: #fff;
+	 font-weight: bold;
+	 text-align: center;
+     }
+
+	/*FIN DE NOSOTROS*/
+
+	 /*NUESTRO TRABAJO*/
+
+	.nuestros-trabajos{
+		width: 100%;
+		height: 1600px;
+	}
+	
+	.agrar{
+		width: 100%;
+		height: 100%;
+	}
+	
+	.colecciones{
+		text-align: center;
+		font-family: serif;
+		font-size: 30px;
+		color: #000;
+		margin: 10px;
+		padding: 10px;
+		padding-top: 40px;
+	}
+	.ultimostp{
+		text-align: center;
+		font-family: serif;
+		color: #333;
+		margin-bottom: 50px ;
+	}
+	.img-centrar{
+		display: block;
+		text-align: center;
+		margin: auto;
+	}
+	
+	.img-1, .img-2, .img-3 {
+		display: block;
+		margin: 0 auto;
+	}
+	img{
+		width: 100%;
+		max-width: 300px;
+		margin: 10px auto;
+	}
+  /* FIN DE NUESTRO TRABAJO*/
+    
+    /*LO QUE HACEMOS*/
+    
+		.servi-adentro{
+		background:#fff;
+		display: block;
+	  }
+	  .servicios-izq{
+		background: #FFF;
+		height: auto;
+		width: 100%;
+		font-family: serif;
+	  }
+	  
+	  .hacemos,.servicios-d{
+		text-align: center;
+		font-size: 25px;
+		background: #000;
+		color: #fff;
+		width: 150px;
+		height: 30px;
+		margin: auto;
+		padding: 10px;
+		margin-top: 20px;
+	  }
+	  .hacemos{
+		width: 50%;
+		height: 100%;
+		margin-top: 50px;
+	  }
+	  .parrafo{
+		height: 100%;
+		width: 100%;
+		padding: 10px 0px;
+	  }
+	  .desde{
+		display: block;
+		margin-block-start: 1em;
+		margin-block-end: 1em;
+		margin-inline-start: 0px;
+		margin-inline-end: 0px;
+		text-align: center;
+		margin-top: 20px;
+		font-size: 20px;
+	  }
+	  .servicios-der{
+		display: block;
+		height: auto;
+		width: 100%;
+		font-family: serif;
+		text-align: center;
+		margin: 0px;
+		padding: 0px;
+	  }
+	  .esto1,.esto2,.esto3,.esto4{
+		margin: auto;
+		padding: auto;
+	  }
+	  .subtitulos{
+		text-align: center;
+		font-family: serif;
+		margin-top: 20px;
+	  }
+	  .parra{
+		text-align:center;
+		font-family: fantasy ;
+		font: 400 16px / 1.42857143 "Merriweather", serif;
+		box-sizing: border-box;
+	  }
+	  
+    /*FIN DE LO QUE HACEMOS */
+
+     /* SECCION FINAL*/ /*BIEN*/
+	.final{
+		width: 100%;
+		display: flex;
+	
+	}
+	
+	/* Estilos para el contenedor */
+	.final-de-pag{
+		width: 100%;
+		height: 100%;
+		background:#dfdcdc ;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	/* Estilos para la sección de contacto */
+	.contacto {
+		background-color: #f5f5f5;
+		padding: 50px 0;
+		padding-top: 100px;
+		text-align: center;
+		width: 100%;
+		height: 200px;
+		max-width: 400px;
+	}
+	
+	/* Estilos para el título */
+	h2 {
+		font-size: 28px;
+		font-weight: bold;
+		color: #333;
+		margin-bottom: 30px;
+	}
+	
+	/* Estilos para la información de contacto */
+	.contacto-info {
+		font-size: 16px;
+		color: #777;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+	
+	/* Estilos para los íconos de contacto */
+	.icono {
+		margin-right: 10px;
+		vertical-align: middle;
+	}
+	
+	/* Estilos para el enlace de correo electrónico */
+	.email {
+		color: #777;
+		text-decoration: none;
+	}
+	.email:hover {
+		text-decoration: underline;
+	}
+	
+	/* Estilos para el formulario */
+	.formulario{
+		width: 100%;
+		max-width: 400px;
+		background: #000;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-around;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	
+	/* Estilos para los campos del formulario */
+	input{
+		padding: 10px;
+		margin: 20px;
+		width: 90%;
+		max-width: 300px;
+		color: #fff;
+		background: transparent;
+		border: 2px solid #fff;
+		border-radius: 6px;
+	}
+	
+	/* Estilos para el campo del mensaje */
+	.msj{
+		margin-top: -10px;
+		height: 125px;
+	}
+	/* Estilos para el botón del formulario */ /*BIEN*/
+	.boton{
+		color: #fff;
+		background: transparent;
+		border: 2px solid #fff;
+		border-radius: 6px;
+	}
+	/* MAPA */
+	#map {
+		height: 200px;
+		width: 100%;
+	} 
+	  
+	       /* FINAL MAPA */
+	
+	.footer-container {
+		width: 100%;
+		height: 100%;
+	}
+	.contacto-3 h3 {
+		margin: 0px;
+		color:#fff;
+		font-size: 1.2rem;
+		font-family: CentraNube,-apple-system,BlinkMacSystemFont,"Helvetica Neue",arial,sans-serif;
+	}
+	.contacto-3 h3:hover {
+		color: #3b5999;
+		transition: .5s;
+	}
+	.contacto-3 ul {
+		margin: 0px;
+		list-style: none;
+		padding: 5px;
+		align-items: center;
+	}
+	.contacto-3 li {
+		align-items: center;
+		margin-bottom: 10px;
+		display: inline-block;
+	}
+	.contacto-3 i {
+		margin: 10px;
+		color: #fff;
+		text-align: center;
+		font-size: 20px;
+	}
+	.derechos p {
+		font-size: 0.8rem;
+		text-align: center;
+	}
+
+
+}
+
